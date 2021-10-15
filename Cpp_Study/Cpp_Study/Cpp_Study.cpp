@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
 
-
 #pragma region 정수
 /*
 // ctrl + k + c 주석달기, ctrl + k + u 주석 해제
@@ -189,3 +188,132 @@ int main()
 }
 */
 #pragma endregion
+
+#pragma region 비교 논리 연산
+//비교, 논리 연산
+/*
+int a = 1, b = 2;
+bool isSame;
+bool isDifferent;
+bool isGreater;
+bool isSmaller;
+
+bool test;
+
+int Hp;
+bool isInvincible; // 무적상태
+
+int main()
+{
+    isSame = (a == b);
+    isDifferent = (a != b);
+    isGreater = (a > b);
+    isSmaller = (a < b);
+
+    test = !isSame;
+    test = (Hp <= 0 && isInvincible == false); // 죽음
+    test = (Hp > 0 || isInvincible == true); // 살았음
+}*/
+#pragma endregion
+
+#pragma region 비트 연산 비트 플래그, const
+
+unsigned char flag; // 부호를 없애야 >> 를 해도 부호비트가 딸려오지 않음
+
+// 한번 정해지면 절대 바뀌지 않을 값들
+// constant의 약자인 const를 붙임 (변수를 상수화 한다고 함)
+// const를 붙였으면 반드시 초기값 지정해야 함
+
+const int AIR = 0;
+const int STUN = 1;
+const int POLYMORPH = 2;
+const int INVINCIBLE = 3;
+
+// 전역 변수
+
+// [데이터 영역]
+// .data (초기값 있는 경우)
+int data = 2;
+
+// .bss (초기값 없는 경우)
+int bss;
+
+// .rodata (읽기 전용 데이터)
+const char* msg = "Hello World";
+
+int main()
+{
+    // [스택 영역]
+    int c = 3;
+
+    // ~ bitwise not
+    // 단일 숫자의 모든 비트를 대상으로, 0은 1, 1은 0 뒤바꿈
+
+    // & bitwise and
+    // 두 숫자의 모든 비트 쌍을 대상으로, and
+
+    // | bitwise or
+    // 두 숫자의 모든 비트 쌍을 대상으로, or
+
+    // ^ bitwise xor
+    // 두 숫자의 모든 비트 쌍을 대상으로, xor  두개가 다르면 1
+
+    // << 비트 좌측 이동
+    // 비트열을 N만큼 왼쪽으로 이동
+    // 왼쪽에 넘치는 N개의 비트는 버림, 새로 생성되는 비트 N개는 0.
+    // *2를 할 때 자주 보이는 패턴
+
+    // >> 비트 우측 이동
+    // 비트열을 N만큼 오른쪽으로 이동
+    // 오른쪽에 넘치는 N개의 비트는 버림.
+    // 왼쪽 생성되는 N개의 비트는 
+    // - 부호 비트가 존재할 경우 부호 비트를 따라감 (부호있는 정수라면 이 부분을 유의)
+    // - 아니면 0
+
+    // 실습 : 비트 플래그
+    // 0b0000 [무적][변이][스턴][공중부양]
+
+    // 무적상태로 만든다    
+    flag = (1 << INVINCIBLE); // 1000, 8
+
+    // 변이상태를 추가함 ( 무적 + 변이 )
+    flag |= (1 << POLYMORPH); // 1100
+
+    // 무적인지 확인하고 싶다? (다른 상태는 관심 x)
+    // bitmask
+    bool invincible = ((flag & (INVINCIBLE)) != 0);
+
+    // 무적이거나 스턴 상태인지 확인하고 싶다?
+    bool mask = (1 << 3) | (1 << 1);
+    bool stunOrInvincibie = ((flag % mask) != 0); // mask = 0b1010    
+}
+#pragma endregion
+
+#pragma region 유의사항
+
+// 1) 변수의 유효범위
+
+// 전역 변수
+// int hp = 10;
+
+// 스택
+// { } 중괄호의 범위가 생존 범위
+// 같은 이름 두번 사용할 때 문제
+
+// 2) 연산 우선순위 --> 괄호 사용
+
+// 3) 타입 변환 ( 형 변환 )
+// - 데이터 짤리거나, 정밀도로 손실, 부호 손실
+
+// 4) 사칙 연산 
+// - 곱셈 오버플로우 
+// - 나눗셈 0으로 나누기 조심.
+// - 실수 관련 123/1000 = 0.000000000000000? --> float,double로 바꾸면 해결 , int는 정수만 받기 때문에 정수만 표현해줌
+
+
+int main()
+{
+    
+}
+#pragma endregion
+
