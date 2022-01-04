@@ -2,19 +2,19 @@
 using namespace std;
 
 
-void SetHp(int hp)
+void SetHp(int* hp)
 {
-	hp = 100;
+	*hp = 100;
 }
 
 
 
-// [매개변수][RETURN][지역변수]
+// [매개변수][RETURN][지역변수(hp 1 )]  
 // Pointer
 int main()
 {
 	int hp = 1;
-	SetHp(hp);
+	SetHp(&hp);
 
 	// 지금까지 사용한 방식
 	// number라는 이름의 4바이트 정수 타입의 바구니를 만든다
