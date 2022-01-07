@@ -42,5 +42,11 @@
     <ClCompile Include="Cpp_220106배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Cpp_220107배열포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_220107로또번호생성기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
