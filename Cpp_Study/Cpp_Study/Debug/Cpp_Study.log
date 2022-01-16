@@ -1,2 +1,3 @@
-﻿  220115TextRPG3.cpp
+﻿  220116연습문제_문자열1.cpp
+G:\GitHub\Cpp_Study\CppStudy\Cpp_Study\Cpp_Study\220116연습문제_문자열1.cpp(150,7): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
   Cpp_Study.vcxproj -> G:\GitHub\Cpp_Study\CppStudy\Cpp_Study\Debug\Cpp_Study.exe
