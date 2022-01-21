@@ -151,7 +151,10 @@
     <ClCompile Include="220115포인터마무리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="220116연습문제_문자열1.cpp" />
+    <ClCompile Include="220116연습문제_문자열1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="220121연습문제_달팽이.cpp" />
     <ClCompile Include="Cpp_220104_textRPG.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
