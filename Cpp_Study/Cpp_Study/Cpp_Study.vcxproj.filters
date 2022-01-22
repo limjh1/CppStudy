@@ -13,57 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\POINTER">
+      <UniqueIdentifier>{2d79385b-23e0-4721-895a-ef4761ad48ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cpp_Study.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_Study_211015_28.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_Study_211031.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_Study_211106.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_Study_211107.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_Study_220104.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_220104_textRPG.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_220104_참조.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_220106배열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_220107배열포인터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cpp_220107로또번호생성기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="220109다중포인터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="220115다차원배열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="220115포인터마무리.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\POINTER</Filter>
     </ClCompile>
     <ClCompile Include="220115TextRPG3.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="220115다차원배열.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="220115포인터마무리.cpp">
+      <Filter>소스 파일\POINTER</Filter>
     </ClCompile>
     <ClCompile Include="220116연습문제_문자열1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\POINTER</Filter>
     </ClCompile>
     <ClCompile Include="220121연습문제_달팽이.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_220104_textRPG.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_220104_참조.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_220106배열.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_220107로또번호생성기.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_220107배열포인터.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Study.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Study_211015_28.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Study_211031.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Study_211106.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Study_211107.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Study_220104.cpp">
+      <Filter>소스 파일\POINTER</Filter>
+    </ClCompile>
+    <ClCompile Include="220122파일분할관리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
