@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\POINTER">
       <UniqueIdentifier>{2d79385b-23e0-4721-895a-ef4761ad48ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Baekjoon">
+      <UniqueIdentifier>{ac23510a-894e-41a2-93d6-cf47f1298003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP">
+      <UniqueIdentifier>{7142140d-4585-475e-9d68-05f7f0363ef7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="220109다중포인터.cpp">
@@ -69,8 +75,20 @@
     <ClCompile Include="Cpp_Study_220104.cpp">
       <Filter>소스 파일\POINTER</Filter>
     </ClCompile>
+    <ClCompile Include="2753.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
     <ClCompile Include="220122파일분할관리.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="220123상속성.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="220123은닉성.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="220123다형성.cpp">
+      <Filter>소스 파일\OOP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
