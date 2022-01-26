@@ -90,5 +90,8 @@
     <ClCompile Include="220123다형성.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
+    <ClCompile Include="220126초기화리스트.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

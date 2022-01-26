@@ -22,6 +22,10 @@ using namespace std;
 // .vftable [] 4바이트(32) 8바이트(64)
 // [VMove] [VDie]
 
+// 순수 가상 함수 : 구현은 없고 '인터페이스'만 전달하는 용도로 사용하는 함수
+// 추상 클래스 : 순수 가상 함수가 1개 이상 포함되면 바로 추상 클래스로 간주
+// - 직접적으로 객체를 만들 수 없게 됨
+
 class Player
 {
 public:
@@ -36,6 +40,10 @@ public:
 
 	virtual void VMove() { cout << "VMove Player!" << endl; }
 	virtual void VDie() { cout << "VDie Player!" << endl; }
+
+	// 순수 가상 함수
+	virtual void VAttack() = 0;
+
 
 public:
 	int _hp;
@@ -57,6 +65,7 @@ public:
 	virtual void VMove() { cout << "VMove Knight!" << endl; }
 	virtual void VDie() { cout << "VDie Knight!" << endl; }
 
+	virtual void VAttack() { cout << "VAttack Knight!" << endl; }
 public:
 	int _stamina;
 };
@@ -83,11 +92,11 @@ void MoveKnight(Knight* knight)
 
 void main()
 {
-	Player p;
-	p.Move();
+	//Player p; // 추상 클래스 되면 독립적으로 못함
+	//p.Move();
 	// p.Move(100);
 
-	MovePlayer(&p); // 플레이어는 플레이어다? YES
+	//MovePlayer(&p); // 플레이어는 플레이어다? YES
 	//MoveKnight(&p); // 플레이어는 기사다? NO (항상 아닐경우 NO)
 
 	Knight k;
