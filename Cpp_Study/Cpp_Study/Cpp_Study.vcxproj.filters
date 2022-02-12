@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\OOP">
       <UniqueIdentifier>{7142140d-4585-475e-9d68-05f7f0363ef7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DynamicAllocation">
+      <UniqueIdentifier>{b286bbc7-0f3e-4e45-8e89-5d1efb872887}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="220109다중포인터.cpp">
@@ -98,6 +101,15 @@
     </ClCompile>
     <ClCompile Include="220202OOP 마무리.cpp">
       <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="220207동적할당.cpp">
+      <Filter>소스 파일\DynamicAllocation</Filter>
+    </ClCompile>
+    <ClCompile Include="220207타입변환.cpp">
+      <Filter>소스 파일\DynamicAllocation</Filter>
+    </ClCompile>
+    <ClCompile Include="220212타입변환2.cpp">
+      <Filter>소스 파일\DynamicAllocation</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
