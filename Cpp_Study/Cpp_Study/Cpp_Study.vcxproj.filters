@@ -111,5 +111,11 @@
     <ClCompile Include="220212타입변환2.cpp">
       <Filter>소스 파일\DynamicAllocation</Filter>
     </ClCompile>
+    <ClCompile Include="220213얕은복사vs깊은복사1.cpp">
+      <Filter>소스 파일\DynamicAllocation</Filter>
+    </ClCompile>
+    <ClCompile Include="220213캐스팅(타입변환).cpp">
+      <Filter>소스 파일\DynamicAllocation</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
