@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\TextRPG%28OOP%29\Creature">
       <UniqueIdentifier>{dbf7178a-5b24-4fe2-9ef8-5a5e4e7ae5bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\전방선언">
+      <UniqueIdentifier>{f3ca14c8-33c6-4ea6-a44a-aba9f481d3ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="220109다중포인터.cpp">
@@ -144,6 +147,15 @@
     <ClCompile Include="Monster1.cpp">
       <Filter>소스 파일\TextRPG%28OOP%29\Creature</Filter>
     </ClCompile>
+    <ClCompile Include="220215전방선언.cpp">
+      <Filter>소스 파일\전방선언</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>소스 파일\전방선언</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>소스 파일\전방선언</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -160,6 +172,12 @@
     </ClInclude>
     <ClInclude Include="Monster1.h">
       <Filter>소스 파일\TextRPG%28OOP%29\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>소스 파일\전방선언</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>소스 파일\전방선언</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
