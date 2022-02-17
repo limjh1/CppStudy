@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\전방선언">
       <UniqueIdentifier>{f3ca14c8-33c6-4ea6-a44a-aba9f481d3ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\디버깅">
+      <UniqueIdentifier>{3b7f0173-cb5f-492c-bfd5-6b6ad049ce79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="220109다중포인터.cpp">
@@ -155,6 +158,9 @@
     </ClCompile>
     <ClCompile Include="player.cpp">
       <Filter>소스 파일\전방선언</Filter>
+    </ClCompile>
+    <ClCompile Include="220216디버깅.cpp">
+      <Filter>소스 파일\디버깅</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
