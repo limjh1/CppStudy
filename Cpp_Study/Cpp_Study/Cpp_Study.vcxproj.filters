@@ -43,6 +43,12 @@
     <Filter Include="소스 파일\콜백함수">
       <UniqueIdentifier>{7e077108-7148-4785-8f0d-f31ca9a80b5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\템플릿기초">
+      <UniqueIdentifier>{29a87d0f-ca98-44b7-9237-4db832778ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL">
+      <UniqueIdentifier>{4cc90d5b-379d-4bf9-a2f3-cd1f77fea0cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="220109다중포인터.cpp">
@@ -173,6 +179,18 @@
     </ClCompile>
     <ClCompile Include="220221함수객체.cpp">
       <Filter>소스 파일\콜백함수</Filter>
+    </ClCompile>
+    <ClCompile Include="220225템플릿기초.cpp">
+      <Filter>소스 파일\템플릿기초</Filter>
+    </ClCompile>
+    <ClCompile Include="220225템플릿기초2.cpp">
+      <Filter>소스 파일\템플릿기초</Filter>
+    </ClCompile>
+    <ClCompile Include="220225콜백함수.cpp">
+      <Filter>소스 파일\템플릿기초</Filter>
+    </ClCompile>
+    <ClCompile Include="220225벡터1.cpp">
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
