@@ -111,7 +111,7 @@ int main()
 		{
 			// erase하면 바로 유효하지 않기 때문에 그 위치를 return해야 위치를 찾을 수 있음
 			// 그냥 하나만 지울거면 하나 지우고 break;해야 for문에서 ++it할 때 크래시 안남
-			it = v.erase(it);
+			it = v.erase(it);			
 		}
 		else
 		{
