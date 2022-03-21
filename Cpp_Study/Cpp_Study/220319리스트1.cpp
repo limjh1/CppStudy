@@ -31,7 +31,7 @@ int main()
 	// - 동작 원리
 	// - 중간 삽입/삭제
 	// - 처음/끝 삽입/삭제
-	// - 임의 접근
+	// - 임의 접근 (i 번재 데이터는 어디 있습니까? 벡터마냥 li[3]이 안됨.)
 
 	list<int> li;
 
@@ -50,6 +50,9 @@ int main()
 	list<int>::iterator itBegin = li.begin();
 	list<int>::iterator itEnd = li.end();
 
+	int* ptrBegin = &(li.front());
+	int* ptrEnd = &(li.back());
+
 	for (list<int>::iterator it = li.begin(); it != li.end(); ++it)
 	{
 		cout << *it << endl;
@@ -59,6 +62,8 @@ int main()
 	li.erase(li.begin()); // li.pop_front();
 	li.remove(10); // list내에 있는 10 이라는 수를 다 지움
 
+	vector<int> v;
+	
 
 
 	return 0;
